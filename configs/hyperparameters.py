@@ -9,7 +9,7 @@ locality_regularization_interval = 1
 use_locality_regularization = True
 regulizer_l2_lambda = 0.1
 regulizer_lpips_lambda = 0.1
-regulizer_alpha = 1
+regulizer_alpha = 300
 
 ## Loss
 pt_l2_lambda = 1
