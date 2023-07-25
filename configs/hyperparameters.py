@@ -5,10 +5,10 @@ optim_type = 'adam'
 
 ## Locality regularization
 latent_ball_num_of_samples = 1
-locality_regularization_interval = 1
+locality_regularization_interval = 50
 use_locality_regularization = True
 regulizer_l2_lambda = 0.1
-regulizer_lpips_lambda = 0.001
+regulizer_lpips_lambda = 0.1
 regulizer_alpha = 30
 
 ## Loss
