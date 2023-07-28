@@ -4,12 +4,12 @@ first_inv_type = 'w'
 optim_type = 'adam'
 
 ## Locality regularization
-latent_ball_num_of_samples = 1
-locality_regularization_interval = 1
-use_locality_regularization = False
-regulizer_l2_lambda = 0.1
-regulizer_lpips_lambda = 0.1
-regulizer_alpha = 30
+latent_ball_num_of_samples = 100
+locality_regularization_interval = 100
+use_locality_regularization = True
+regulizer_l2_lambda = 500
+regulizer_lpips_lambda = 500
+regulizer_alpha = 3000
 
 ## Loss
 pt_l2_lambda = 1
