@@ -7,9 +7,9 @@ optim_type = 'adam'
 latent_ball_num_of_samples = 100
 locality_regularization_interval = 100
 use_locality_regularization = True
-regulizer_l2_lambda = 500
-regulizer_lpips_lambda = 500
-regulizer_alpha = 3000
+regulizer_l2_lambda = 0.1
+regulizer_lpips_lambda = 0.1
+regulizer_alpha = 30
 
 ## Loss
 pt_l2_lambda = 1
